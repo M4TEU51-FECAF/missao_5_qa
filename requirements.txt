@@ -1,0 +1,6 @@
+# requirements.txt
+pydantic
+pytest
+pytest-mock # Adicionar esta linha
+requests      # Adicionar esta linha
+responses     # Adicionar esta linha
