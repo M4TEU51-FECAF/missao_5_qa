@@ -78,7 +78,7 @@ def test_adicionar_multiplas_despesas_incrementa_id(repo):
     assert despesa_2.description == "Livro"
 
 # ... (testes anteriores continuam aqui) ...
-from src.core import FinancialManager
+from core import FinancialManager
 
 def test_financial_manager_adiciona_despesa(mocker):
     """Testa se o FinancialManager chama corretamente o método add do repositório."""
@@ -141,7 +141,7 @@ def test_categorize_expense_by_cost(amount, expected_category):
 
 # ... (testes anteriores continuam aqui) ...
 import responses
-from src.core import get_expense_in_usd
+from core import get_expense_in_usd
 
 @responses.activate
 def test_get_expense_in_usd_sucesso():
