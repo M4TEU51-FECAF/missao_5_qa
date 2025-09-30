@@ -1,8 +1,8 @@
 import pytest
 from pydantic import ValidationError
 from datetime import date
-from src.core import Expense
-from src.core import ExpenseRepository
+from core import Expense
+from core import ExpenseRepository
 
 def test_criar_despesa_valida():
     """Testa a criação de uma despesa com dados válidos."""
